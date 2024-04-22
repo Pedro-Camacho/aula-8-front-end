@@ -1,44 +1,100 @@
-/* Dropdown Button */
-.dropbtn {
-    background-color: #3498DB;
-    color: white;
-    padding: 16px;
-    font-size: 16px;
-    border: none;
-    cursor: pointer;
+.caixa-cinza{
+    background-color: #ccc;
+    height: 200px;
+    display: flex;
+    flex-direction: row;    
+    align-items: flex-start;
 }
-  
-/* Dropdown button on hover & focus */
-.dropbtn:hover, .dropbtn:focus {
-    background-color: #2980B9;
-}
-  
-/* The container <div> - needed to position the dropdown content */
-.dropdown {
+.caixa-direction{
+    width: 100px;
+    height: 100px;
+    background-color: #fff;
+    border-radius: 15px;
+    margin:10px;
     position: relative;
-    display: inline-block;
 }
-  
-/* Dropdown Content (Hidden by Default) */
-.dropdown-content {
-    display: none;
+.numero{
+    font-size: 150%;
+    color:rgb(250,192,0);
+    font-weight: bold;
+}
+.circulo{
+    width: 50%;
+    height: 50%;
+    border-radius: 50%;
+    background-color: rgb(189,186,186);
+    display: flex;
+    justify-content: center;
+    align-items: center;
     position: absolute;
-    background-color: #f1f1f1;
-    min-width: 160px;
-    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-    z-index: 1;
+    top:50%;
+    left:50%;
+    transform: translate(-50%,-50%);
 }
-  
-/* Links inside the dropdown */
-.dropdown-content a {
-    color: black;
-    padding: 12px 16px;
-    text-decoration: none;
-    display: block;
+.caixa-branca{
+    background-color: #ffffff;
+    border: solid 1px #eeff00;
+    padding: 20px;
+    display: flex;
+    flex-wrap: wrap;
 }
-  
-  /* Change color of dropdown links on hover */
-.dropdown-content a:hover {background-color: #ddd;}
-  
-  /* Show the dropdown menu (use JS to add this class to the .dropdown-content container when the user clicks on the dropdown button) */
-.show {display:block;}
+.caixa-wrap{
+    width: 100px;
+    height: 100px;
+    background-color: #ff7b00;
+    color:#fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 10px;
+    position:relative;
+}
+.caixa-flow{
+    width: 100px;
+    height: 100px;
+    background-color: #ff7b00;
+    color:#fff;
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    align-items: center;
+    margin: 10px;
+    position:relative;
+}
+.caixa-azul{
+    background-color: #28b7;
+    border-radius:10px ;
+    padding: 5px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+
+}
+.caixa-justify{
+    width: 100px;
+    height: 100px;
+    background-color: #fab778;
+    margin:5px;
+    border-radius: 10px;
+}
+.caixa-azul2{
+    background-color: #28b7;
+    border-radius:10px ;
+    padding: 5px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 111px;
+    height: 600px;
+
+}
+.caixa-justify2{
+    width: 100px;
+    height: 100px;
+    background-color: #fab778;
+    margin:5px;
+    border-radius: 10px;
+}
+.caixa-rosa{
+    
+}
